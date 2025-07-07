@@ -4,39 +4,39 @@ This is a Flask-based machine learning web application that predicts whether a l
 ## 📂 Project Structure
 *Loan-Approval-Prediction/*
 *│
-├── app.py                         # Flask app entry point
-├── Loan Prediction Dataset.csv    # Dataset used for model training
+├── app.py                         
+├── Loan Prediction Dataset.csv    
 ├── models/
-│   └── loan_prediction.pkl        # Trained ML model (Pickle format)
+│   └── loan_prediction.pkl        
 ├── templates/
-│   ├── index.html                 # Web form for input
-│   └── result.html                # Result display after prediction*
+│   ├── index.html                 
+│   └── result.html               *
 
-🚀 How It Works
-User accesses the homepage and fills out the loan application form.
+## 🚀 How It Works
+*User accesses the homepage and fills out the loan application form.*
 
-The form data is sent to the backend via POST request.
+*The form data is sent to the backend via POST request.*
 
-The loan_prediction.pkl model processes the input and returns a prediction.
+*The loan_prediction.pkl model processes the input and returns a prediction.*
 
-The result (Approved / Rejected) is displayed on a result page.
+*The result (Approved / Rejected) is displayed on a result page.*
 
-🧠 Model Features Used
-The model takes the following features as input:
+## 🧠 Model Features Used
+*The model takes the following features as input:*
 
-Loan_ID
+*Loan_ID*
 
-Gender (0 = Female, 1 = Male)
+*Gender (0 = Female, 1 = Male)*
 
-Married (0 = No, 1 = Yes)
+*Married (0 = No, 1 = Yes)*
 
-Dependents (0, 1, 2, 3+)
+*Dependents (0, 1, 2, 3+)*
 
-Education (0 = Not Graduate, 1 = Graduate)
+*Education (0 = Not Graduate, 1 = Graduate)*
 
-Self Employed (0 = No, 1 = Yes)
+*Self Employed (0 = No, 1 = Yes)*
 
-Applicant Income
+*Applicant Income*
 
 Coapplicant Income
 
