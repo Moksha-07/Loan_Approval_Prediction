@@ -3,18 +3,22 @@ This is a Flask-based machine learning web application that predicts whether a l
 
 ## 📂 Project Structure
 *Loan-Approval-Prediction/*
-│
-├── *app.py*
 
 ├── *Dataset/*
-    └── *Loan Prediction Dataset.csv*  
     
-├── models/
-│   └── loan_prediction.pkl   
+│    └── *Loan Prediction Dataset.csv*  
+    
+├── *Models/*
 
-├── templates/
-│   ├── index.html                 
-│   └── result.html
+│   └── *loan_prediction.pkl*   
+
+├── *Templates/*
+
+│   ├── *index.html*
+
+│   └── *result.html*
+
+├── *app.py*
 
 ## 🚀 How It Works
 *User accesses the homepage and fills out the loan application form.*
